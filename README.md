@@ -1,5 +1,5 @@
 # DataTable using Angular Material
-This is simple data table using angular material, you can make data filter from table also make data sort and orginize data by paginator.
+This is simple data table using angular material, you can make data filter, sort and organize data by pagination.
 
 
 
