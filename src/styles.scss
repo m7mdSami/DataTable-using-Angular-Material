@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: #eee }
+
+.mat-progress-spinner svg,
+.mat-progress-spinner {
+    width: 50px !important;
+    height: 50px !important;
+}
+.mat-progress-spinner circle{
+    stroke-width: 7% !important;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
