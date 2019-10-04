@@ -5,8 +5,11 @@
         </mat-form-field>
 
         <div class="example-container mat-elevation-z8">
+            <div class="loading" *ngIf="!dataSource">
+                <mat-spinner></mat-spinner>
+            </div>
 
-            <mat-table [dataSource]="dataSource" matSort matSortStart="desc" *ngIf="photos; else loading">
+            <mat-table [dataSource]="dataSource" matSort matSortStart="desc">
 
                 <!-- ID Column -->
                 <ng-container matColumnDef="id">
@@ -38,9 +41,3 @@
     </mat-card>
 
 </div>
-
-<ng-template #loading>
-    <div class="loading">
-        <mat-spinner></mat-spinner>
-    </div>
-</ng-template>
